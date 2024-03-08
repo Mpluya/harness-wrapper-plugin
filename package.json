@@ -24,9 +24,14 @@
   },
   "workspaces": {
     "packages": [
-      "packages/*",
       "plugins/*"
     ]
+  },
+  "dependencies": {
+    "@harnessio/backstage-plugin-ci-cd": "0.6.0",
+    "@backstage/plugin-catalog": "1.11.2",
+    "@vmware-tanzu/core-common": "1.0.0",
+    "@vmware-tanzu/core-frontend": "1.0.0"
   },
   "devDependencies": {
     "@backstage/cli": "^0.22.8",

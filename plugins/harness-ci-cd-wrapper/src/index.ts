@@ -1,0 +1,1 @@
+export { HarnessCiCdFrontendPlugin as plugin } from './HarnessCiCdFrontendPlugin';
