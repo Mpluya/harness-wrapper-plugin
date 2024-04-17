@@ -9,7 +9,7 @@ This wrapper plugin was produced specifically to surface the Harness CI/CD backs
 
 Ensure you have the following tools installed:
 - node 16
-- yarn 16
+- yarn 1.22.x
 
 ```
 yarn install && yarn tsc && yarn workspaces run build
